@@ -9,7 +9,7 @@ load_dotenv()
 # Bot credentials from .env file
 API_ID = int(os.getenv("9028935"))
 API_HASH = os.getenv("208bf560e644253ff8a50a94b46fe517")
-BOT_TOKEN = os.getenv("7234076217:AAEg7RVx9P_tAoJHulN90e4cqFdIZAh3AZo")
+BOT_TOKEN = os.getenv("")
 
 # Initialize the bot client
 app = Client("exif_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
